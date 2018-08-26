@@ -1,0 +1,117 @@
+{
+  "dividerPosition": 0.00370919881305638,
+  "tabPane": [
+    {
+      "title": "Tab 1",
+      "autoPopulate": true,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 64.0,
+        "showGrid": true,
+        "hgap": 8.0,
+        "vgap": 8.0,
+        "tiles": {
+          "0,3": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "3-Axis Accelerometer",
+              "_title": "",
+              "range": "k16G",
+              "showText": true,
+              "numDecimals": 2,
+              "showTickMarks": false
+            }
+          },
+          "5,6": {
+            "size": [
+              8,
+              2
+            ],
+            "content": {
+              "_type": "Basic FMS Info",
+              "_title": "Match Overwiev"
+            }
+          },
+          "0,7": {
+            "size": [
+              4,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_title": "Limit Switch Status",
+              "colorWhenTrue": "#7CFC00FF",
+              "colorWhenFalse": "#8B0000FF"
+            }
+          },
+          "5,0": {
+            "size": [
+              8,
+              5
+            ],
+            "content": {
+              "_type": "Camera Stream",
+              "_title": "Camera Server",
+              "showControls": false,
+              "showCrosshair": false,
+              "crosshairColor": "#FFFFFFFF",
+              "compression": 0.0,
+              "fps": -1,
+              "imageWidth": -1,
+              "imageHeight": -1
+            }
+          },
+          "0,0": {
+            "size": [
+              4,
+              3
+            ],
+            "content": {
+              "_type": "Graph",
+              "_title": "Ult. Sensor Cal. Distance",
+              "Visible time": 30.0
+            }
+          },
+          "14,5": {
+            "size": [
+              4,
+              3
+            ],
+            "content": {
+              "_type": "Gyro",
+              "_title": "Gyro",
+              "majorTickSpace": 45.0,
+              "startAngle": 180.0,
+              "tickMarkRingVisible": true
+            }
+          },
+          "0,5": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "Speed Controller",
+              "_title": "",
+              "controllable": false,
+              "orientation": "HORIZONTAL"
+            }
+          },
+          "14,0": {
+            "size": [
+              4,
+              5
+            ],
+            "content": {
+              "_type": "Powerup Field",
+              "_title": "Switch/Scale Overwiev"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
