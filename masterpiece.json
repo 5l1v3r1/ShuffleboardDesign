@@ -2,7 +2,7 @@
   "dividerPosition": 0.00370919881305638,
   "tabPane": [
     {
-      "title": "Tab 1",
+      "title": "Masterpiece",
       "autoPopulate": true,
       "autoPopulatePrefix": "",
       "widgetPane": {
@@ -11,20 +11,6 @@
         "hgap": 8.0,
         "vgap": 8.0,
         "tiles": {
-          "0,3": {
-            "size": [
-              4,
-              2
-            ],
-            "content": {
-              "_type": "3-Axis Accelerometer",
-              "_title": "",
-              "range": "k16G",
-              "showText": true,
-              "numDecimals": 2,
-              "showTickMarks": false
-            }
-          },
           "5,6": {
             "size": [
               8,
@@ -35,7 +21,7 @@
               "_title": "Match Overwiev"
             }
           },
-          "0,7": {
+          "7,5": {
             "size": [
               4,
               1
@@ -71,7 +57,7 @@
             ],
             "content": {
               "_type": "Graph",
-              "_title": "Ult. Sensor Cal. Distance",
+              "_title": "Ult. Sensor No.1 Cal. Distance",
               "Visible time": 30.0
             }
           },
@@ -88,18 +74,6 @@
               "tickMarkRingVisible": true
             }
           },
-          "0,5": {
-            "size": [
-              4,
-              2
-            ],
-            "content": {
-              "_type": "Speed Controller",
-              "_title": "",
-              "controllable": false,
-              "orientation": "HORIZONTAL"
-            }
-          },
           "14,0": {
             "size": [
               4,
@@ -108,6 +82,31 @@
             "content": {
               "_type": "Powerup Field",
               "_title": "Switch/Scale Overwiev"
+            }
+          },
+          "0,3": {
+            "size": [
+              4,
+              3
+            ],
+            "content": {
+              "_type": "Graph",
+              "_title": "Ult. Sensor No.2 Cal. Distance",
+              "Visible time": 30.0
+            }
+          },
+          "0,6": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "3-Axis Accelerometer",
+              "_title": "Accelerometer",
+              "range": "k16G",
+              "showText": true,
+              "numDecimals": 2,
+              "showTickMarks": false
             }
           }
         }
